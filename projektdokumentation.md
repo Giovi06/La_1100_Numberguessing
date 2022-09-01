@@ -80,10 +80,14 @@ Total:
 
 ## 4 Realisieren
 
-| AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
-| ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| AP-№ | Datum    | Zuständig | geplante Zeit | tatsächliche Zeit |
+| ---- | -------- | --------- | ------------- | ----------------- |
+| 1.A  | 01.09.22 | Giovanni  |45'            | 15'               |
+| 1.B  | 01.09.22 | Giovanni  |45'            | 15'               |
+| 4.G  | 01.09.22 | Giovanni  |45'            | 45'               |
+| 5.H  | 01.09.22 | Giovanni  |45'            | 45'               |
+| 5.I  | 01.09.22 | Giovanni  |45'            | 40'               |
+| 5.J  | 01.09.22 | Giovanni  |45'            | 30'               |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
