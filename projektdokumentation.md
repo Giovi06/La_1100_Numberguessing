@@ -4,10 +4,10 @@ Giovanni Innamorato
 
 
 | Datum | Version | Zusammenfassung                                              |
-| ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+| ----- | ------- | ------------------------------------------------------------------------------------------------------------- |
+| 01.09 | 0.0.1   | Es kann eine zufällige Zahl generieren und es erkennt Zahlen grösser als 100 oder kleiner als 1 als ungültig  |
+| 08.09 | 0.0.2   |Es erkennt ob die geraten Zahl grösser/kleiner als die zufällige Zahl ist|
+|       | 1.0.0   ||
 
 ## 1 Informieren
 
@@ -24,8 +24,8 @@ Ich ertselle ein Programm, dieses ersellt eine Geheimzahl zwischen 1-100. Der Us
 | 3    | Muss            | Funktional | Es muss entscheiden können ob die Zahl höher/tiefer als die Zufallszahl ist                       |
 | 4    | Muss            | Funktional | Es muss erkennen können ob die geratene Zahl gültig oder ungültig(Wörter,Buchstaben) ist          |
 | 5    | Muss            | Funktional | Es muss erkennen können ob die geratene Zahl richtig oder Falsch ist                              |
-| 6    | Kann            | Qualität   | Wenn man Im Eingabefeld etwas anderes als eine Zahl zwischen 1-100 eingibt, dann wird das Feld rot|
-| 7    | Kann            | Qualität   | Wenn man Im Eingabefeld eine Zahl zwischen 1-100 eingibt, dann wird das Feld grün                 |
+| 6    | Kann            | Qualität   ||
+| 7    | Kann            | Qualität   ||
 
 
 
@@ -40,8 +40,7 @@ Ich ertselle ein Programm, dieses ersellt eine Geheimzahl zwischen 1-100. Der Us
 | 3.3  | Eine Zahl wurde eingegeben             | 46           | Die Zufallszahl liegt unter 46                  |
 | 4.4  | Programm wurde gestartet               | Sucuk mit Ei | Bitte geben sie eine Zahl zwischen 1-100 ein    |
 | 5.5  | Programm wurde gestartet               | 40           | Super! Sie haben die die richtige Zahl erraten  |
-| 6.6  | Programm wurde gestartet               | Ketchup      | Das Eingabefeld wird rot                        |
-| 7.7  | Programm wurde gestartet               | 69           | Das Eingabefeld wird grün                       |
+
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
@@ -64,9 +63,7 @@ Ich ertselle ein Programm, dieses ersellt eine Geheimzahl zwischen 1-100. Der Us
 | 5.H  | ----- | Giovanni  | Programm muss erkennen können ob es die richtige Zahl oder die falsche ist                       | 20'           |
 | 5.I  | ----- | Giovanni  | Falls die Zahl nicht erraten wurde, soll der User nochmals versuchen                             | 45'           |
 | 5.J  | ----- | Giovanni  | Falls die Richtige Zahl gefunden wurde, soll eine Meldung gegeben werden                         | 30'           |
-| 6.K  | ----- | Giovanni  | Herausfinden wie man eingabefelder farbig machen kann                                            | 45'           |
-| 6.L  | ----- | Giovanni  | Das Eingabefeld bei einer falschen Eingabe rot werden lassen                                     | 45'           |
-| 7.M  | ----- | Giovanni  | Das Eingabefeld bei einer richtigen Eingabe Grün werden lassen                                   | 30'           |
+
 
 
 Total: 
