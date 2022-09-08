@@ -17,14 +17,14 @@ Ich ertselle ein Programm, dieses ersellt eine Geheimzahl zwischen 1-100. Der Us
 
 ### 1.2 User Stories
 
-| US-№ | Verbindlichkeit | Typ        | Beschreibung                                                                                      |
-| ---- | ----------------| ---------- | ------------------------------------------------------------------------------------------------- |
-| 1    | Muss            | Funktional | Es muss eine Zahl Generieren können                                                               |
-| 2    | Muss            | Funktional | Es muss ein Eingabefeld für die Zahl des Users                                                    |
-| 3    | Muss            | Funktional | Es muss entscheiden können ob die Zahl höher/tiefer als die Zufallszahl ist                       |
-| 4    | Muss            | Funktional | Es muss erkennen können ob die geratene Zahl gültig oder ungültig(Wörter,Buchstaben) ist          |
-| 5    | Muss            | Funktional | Es muss erkennen können ob die geratene Zahl richtig oder Falsch ist                              |
-| 6    | Kann            | Qualität   | Es fragt am Anfang ob Sie spielen möchten                                                         |
+| US-№ | Verbindlichkeit | Typ        | Beschreibung                                                                                                     |
+| ---- | ----------------| ---------- | ---------------------------------------------------------------------------------------------------------------- |
+| 1    | Muss            | Funktional | Als Spieler möchte ich, dass das Programm eine zufällige Zahl generiert                                          |
+| 2    | Muss            | Funktional | Als Spieler möchte ich eine Zahl eingeben können, damit ich spielen kann                                         |
+| 3    | Muss            | Funktional | Als Spieler möchte ich wissen ob miene Zahl tiefer/höher las die Zufallszahl ist                                 |
+| 4    | Muss            | Funktional | Als Spieler möchte ich das es erkennt ob ich eine Gültige oder Ungültige Zahl eingebe, damit ich spielen  kann   |
+| 5    | Muss            | Funktional | Als Spieler möchte ich das es erkennt ob meine Zahl richtig oder falsch ist, damit ich weiss ob ich gewonnen habe|
+| 6    | Kann            | Qualität   | Als Spieler möchte ich dass mich das Programm fragt ob ich bereit bin                                            |
 | 7    | Kann            | Qualität   ||
 
 
@@ -92,7 +92,8 @@ Total:
 | 3.D  | 08.09.22 | Giovanni  |45'            | 45'               |
 | 3.E  | 08.09.22 | Giovanni  |45'            | 30'               |
 | 4.F  | 08.09.22 | Giovanni  |20'            | 30'               |
-|  | 0.09.22 | Giovanni  |'            | '               |
+| 6.K  | 0.09.22 | Giovanni   |30'            | 30'               |
+| 6.L  | 0.09.22 | Giovanni   |30'            | 30'               |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
