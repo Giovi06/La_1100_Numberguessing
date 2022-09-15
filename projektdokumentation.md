@@ -3,11 +3,11 @@
 Giovanni Innamorato
 
 
-| Datum | Version | Zusammenfassung                                              |
+| Datum | Version | Zusammenfassung                                                                                               |
 | ----- | ------- | ------------------------------------------------------------------------------------------------------------- |
-| 01.09 | 0.0.1   | Es kann eine zufällige Zahl generieren und es erkennt Zahlen grösser als 100 oder kleiner als 1 als ungültig  |
-| 08.09 | 0.0.2   | Es erkennt ob die geraten Zahl grösser/kleiner als die zufällige Zahl ist|
-|       | 1.0.0   ||
+| 01.09 | 1.0.1   | Es kann eine zufällige Zahl generieren und es erkennt Zahlen grösser als 100 oder kleiner als 1 als ungültig  |
+| 08.09 | 1.0.2   | Es erkennt ob die geraten Zahl grösser/kleiner als die zufällige Zahl ist|
+| 15.09 | 1.0.3   | Es gibt verschiede Antworten auf verschiedene Anzahlversuche                                                  |
 
 ## 1 Informieren
 
@@ -24,9 +24,11 @@ Ich ertselle ein Programm, dieses ersellt eine Geheimzahl zwischen 1-100. Der Us
 | 3    | Muss            | Funktional | Als Spieler möchte ich wissen ob miene Zahl tiefer/höher las die Zufallszahl ist                                 |
 | 4    | Muss            | Funktional | Als Spieler möchte ich das es erkennt ob ich eine Gültige oder Ungültige Zahl eingebe, damit ich spielen  kann   |
 | 5    | Muss            | Funktional | Als Spieler möchte ich das es erkennt ob meine Zahl richtig oder falsch ist, damit ich weiss ob ich gewonnen habe|
-| 6    | Kann            | Qualität   | Als Spieler möchte ich dass mich das Programm fragt ob ich bereit bin                                            |
-| 7    | Kann            | Qualität   ||
-
+| 6    | Kann            | Qualität   | Als Spieler möchte ich, dass mich das Programm fragt ob ich bereit bin                                           |
+| 7    | Kann            | Qualität   | Als spieler möchte ich, dass nachdem ich gewonnen habe, mir gesagt wird wie viele Versuche ich gebraucht habe    |
+| 8    | Kann            | Qualität   | Als spieler möchte ich, dass ich so oft spielen kann wie ich will.                                               |
+| 9    | Kann            | Qualität   | Als spieler möchte ich, wenn ich weiter spielen möchte oder nicht eine Reaktion erfolgt.                         |
+| 10   | Kann            | Qualität   | Als spieler möchte ich, dass bei verschiedenen Anzahl Versuchen, eine andere Antwort bekomme                     |
 
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
@@ -66,6 +68,10 @@ Ich ertselle ein Programm, dieses ersellt eine Geheimzahl zwischen 1-100. Der Us
 | 5.J  | ----- | Giovanni  | Falls die Richtige Zahl gefunden wurde, soll eine Meldung gegeben werden                         | 30'           |
 | 6.K  | ----- | Giovanni  | Falls Spieler True eingibt soll programm fortlaufen                                              | 30'           |
 | 6.L  | ----- | Giovanni  | Falls Spieler True eingibt soll programm anhalten                                                | 30'           |
+| 7.M  | ----- | Giovanni  | Versuche Zähler einbauen                                                                         | 15'           |
+| 8.N  | ----- | Giovanni  | Schleife erstellen um Programm nach wunshc des Users zu wiederholen                              | 45'           |
+| 9.O  | ----- | Giovanni  | Falls Spieler weiter will oder nicht, eine kurze Reaktion darauf folgen lassen                   | 10'           |
+| 10.P | ----- | Giovanni  | Mit Switch case, verschiedene Antwort auf verschiedene Anzahlversuchen zu geben                  | 30'           |
 
 
 
@@ -92,8 +98,12 @@ Total:
 | 3.D  | 08.09.22 | Giovanni  |45'            | 45'               |
 | 3.E  | 08.09.22 | Giovanni  |45'            | 30'               |
 | 4.F  | 08.09.22 | Giovanni  |20'            | 30'               |
-| 6.K  | 0.09.22 | Giovanni   |30'            | 30'               |
-| 6.L  | 0.09.22 | Giovanni   |30'            | 30'               |
+| 6.K  | 08.09.22 | Giovanni  |30'            | 30'               |
+| 6.L  | 08.09.22 | Giovanni  |30'            | 30'               |
+| 7.M  | 15.09.22 | Giovanni  |15'            | 10'               |
+| 8.N  | 15.09.22 | Giovanni  |45'            | 45'               |
+| 9.O  | 15.09.22 | Giovanni  |10'            | 10'               |
+| 10.P | 15.09.22 | Giovanni  |30'            | 30'               |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
