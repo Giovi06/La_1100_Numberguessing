@@ -31,7 +31,6 @@ Ich ertselle ein Programm, dieses ersellt eine Geheimzahl zwischen 1-100. Der Us
 | 10   | Kann            | Qualität   | Als spieler möchte ich, dass bei verschiedenen Anzahl Versuchen, eine andere Antwort bekomme                     |
 
 
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
 ### 1.3 Testfälle
 
@@ -45,7 +44,6 @@ Ich ertselle ein Programm, dieses ersellt eine Geheimzahl zwischen 1-100. Der Us
 | 6.6  | Programm fragt True/false              | true         | Zahl wird erwartet                              |
 | 6.7  | Programm fragt True/false              | false        | Programm wird unterbrochen                      |
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
 ### 1.4 Diagramme
 
@@ -105,7 +103,6 @@ Total:
 | 9.O  | 15.09.22 | Giovanni  |10'            | 10'               |
 | 10.P | 15.09.22 | Giovanni  |30'            | 30'               |
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
 ## 5 Kontrollieren
 
