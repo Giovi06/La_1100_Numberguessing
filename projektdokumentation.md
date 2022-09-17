@@ -29,6 +29,7 @@ Ich ertselle ein Programm, dieses ersellt eine Geheimzahl zwischen 1-100. Der Us
 | 8    | Kann            | Qualität   | Als spieler möchte ich, dass ich so oft spielen kann wie ich will.                                               |
 | 9    | Kann            | Qualität   | Als spieler möchte ich, wenn ich weiter spielen möchte oder nicht eine Reaktion erfolgt.                         |
 | 10   | Kann            | Qualität   | Als spieler möchte ich, dass bei verschiedenen Anzahl Versuchen, eine andere Antwort bekomme                     |
+| 11   | Kann            | Qualität   | Als spieler möchte ich, dass wenn ich weniger als 6 versuche brauchte, mir ein Spielmodus von 1-1000 freigeschltet wird|                     
 
 
 
@@ -70,6 +71,7 @@ Ich ertselle ein Programm, dieses ersellt eine Geheimzahl zwischen 1-100. Der Us
 | 8.N  | ----- | Giovanni  | Schleife erstellen um Programm nach wunshc des Users zu wiederholen                              | 45'           |
 | 9.O  | ----- | Giovanni  | Falls Spieler weiter will oder nicht, eine kurze Reaktion darauf folgen lassen                   | 10'           |
 | 10.P | ----- | Giovanni  | Mit Switch case, verschiedene Antwort auf verschiedene Anzahlversuchen zu geben                  | 30'           |
+| 11.Q | ----- | Giovanni  | Neues Spielmodus von 1-1000 erstellen, dass nur bei <6 versuche freigeschltet wird               | 45'           |
 
 
 
@@ -102,6 +104,7 @@ Total:
 | 8.N  | 15.09.22 | Giovanni  |45'            | 45'               |
 | 9.O  | 15.09.22 | Giovanni  |10'            | 10'               |
 | 10.P | 15.09.22 | Giovanni  |30'            | 30'               |
+| 11.Q | 15.09.22 | Giovanni  |45'            | 50'               |
 
 
 ## 5 Kontrollieren
