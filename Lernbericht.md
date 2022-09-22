@@ -51,16 +51,18 @@ Console.WriteLine("Die Zahl befindet sich nicht zwischen 1 und 100");
 break;
 
 ````
-✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
 
-* Eine textliche Beschreibung
-* Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
-* Ein gut dokumentierter Code-Fetzen
-* Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
+![SwitchCase](https://user-images.githubusercontent.com/111045802/191700432-7ad922dd-80f4-463a-9316-9a4aa6ebe840.png)
+
+
 
 ## Verifikation
 
-✍️ Erklären Sie kurz und bündig, inwiefern die von Ihnen verwendeten Medien zeigen, was Sie gelernt haben.
+* Text: Beschreibt die Funktionen von Switch-case
+
+* Code: Soll zeigen wie man Switch-case benutzt
+
+* PAP: Soll den Vorgang und Funktion von Switch-case klarer darstellen
 
 # Reflexion zum Arbeitsprozess
 
