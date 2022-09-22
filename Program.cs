@@ -100,12 +100,10 @@ namespace Numberguessing
                                                 }
                                                 anzahlVersuche = ++anzahlVersuche;
                                                 break;
-
                                         }
 
                                     } while (geschafft1000 == 0);
                                     break;
-
 
                                 case false:
                                     anzahlVersuche = 0;
@@ -139,7 +137,7 @@ namespace Numberguessing
                                                 switch (anzahlVersuche)
                                                 {
                                                     case int x when (anzahlVersuche == 1):
-                                                        Console.WriteLine("Glückwunsch, Sie haben es geschafft mit nur einem Versuch! ");
+                                                        Console.WriteLine("Glückwunsch, Sie haben es geschafft mit nur einem Versuch geschafft! ");
                                                         break;
                                                     case int x when (anzahlVersuche < 6):
                                                         Console.WriteLine("Super, Sie haben es geschafft mit nur " + anzahlVersuche + " Versuchen die richtige Zahl zu erraten!");
@@ -184,8 +182,10 @@ namespace Numberguessing
                                 Console.WriteLine(e.ToString());
                                 return;
                             }
+
                     if (nochmal == true)
                     {
+                        Console.WriteLine("Super, das freut mich");
                         harterModus = false;
                         switch (anzahlVersuche)
                         {
