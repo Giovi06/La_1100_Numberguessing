@@ -5,9 +5,10 @@ Giovanni Innamorato
 
 | Datum | Version | Zusammenfassung                                                                                               |
 | ----- | ------- | ------------------------------------------------------------------------------------------------------------- |
-| 01.09 | 1.0.1   | Es kann eine zufällige Zahl generieren und es erkennt Zahlen grösser als 100 oder kleiner als 1 als ungültig  |
-| 08.09 | 1.0.2   | Es erkennt ob die geraten Zahl grösser/kleiner als die zufällige Zahl ist|
-| 15.09 | 1.0.3   | Es gibt verschiede Antworten auf verschiedene Anzahlversuche                                                  |
+| 01.09 | 0.0.1   | Es kann eine zufällige Zahl generieren und es erkennt Zahlen grösser als 100 oder kleiner als 1 als ungültig  |
+| 08.09 | 0.0.2   | Es erkennt ob die geraten Zahl grösser/kleiner als die zufällige Zahl ist|
+| 15.09 | 0.0.3   | Es gibt verschiede Antworten auf verschiedene Anzahlversuche                                                  |
+| 22.09 | 1.0.0   | Programm fertigestellt und funktioniert|
 
 ## 1 Informieren
 
@@ -37,14 +38,21 @@ Ich ertselle ein Programm, dieses ersellt eine Geheimzahl zwischen 1-100. Der Us
 
 | TC-№ | Ausgangslage                           | Eingabe      | Erwartete Ausgabe                               |
 | ---- | -------------------------------------- | ------------ | ----------------------------------------------- |
-| 1.1  | Programm wurde gestartet               |              | Eine zufällige Zahl wurde generiert             |
+| 1.1  | Programm wurde gestartet               |-| Eine zufällige Zahl wurde generiert             |
 | 2.2  | Ein Eingabefeld ist vorhanden          | Eine Zahl    | Die Zahl soll vom Programm verwendet werden     |
 | 3.3  | Eine Zahl wurde eingegeben             | 46           | Die Zufallszahl liegt unter 46                  |
 | 4.4  | Programm wurde gestartet               | Sucuk mit Ei | Fehlermeldung                                   |
 | 5.5  | User hat die richtige Zahl eingegeben  | 40           | Super! Sie haben die die richtige Zahl erraten  |
 | 6.6  | Programm fragt True/false              | true         | Zahl wird erwartet                              |
 | 6.7  | Programm fragt True/false              | false        | Programm wird unterbrochen                      |
-
+| 7.8  | richtige Zhal wurde erraten            | 34       | Sie haben 3 versuche gebraucht                     |
+| 8.9  | Programm fragt"Möchten Sie nochmal spielen?"| true  | Programm wird neugestartet                      |
+| 9.10 | Programm fragt"Möchten Sie nochmal spielen?"| false | Okay schade :(|
+| 9.11 | Programm fragt"Möchten Sie nochmal spielen?"| true| Super, das freut mich|
+| 10.12 | 1 Versuch wurde gebraucht |-| Glückwunsch, Sie haben es geschafft mit nur einem Versuch geschafft! |
+| 11.13 | weniger als 6 Verscuhe wurden gebraucht|-| Möchten Sie eine Zahl zwischen 1-1000?|
+| 11.14 | Programm fragt ob man eine Zahl zwischen 1-1000 möchte| true | Geben Sie eine Zahl zwischen 1-1000 ein|
+| 11.15 | Programm fragt ob man eine Zahl zwischen 1-1000 möchte| false | Geben Sie eine Zahl zwischen 1-100 ein|
 
 ### 1.4 Diagramme
 
@@ -65,8 +73,8 @@ Ich ertselle ein Programm, dieses ersellt eine Geheimzahl zwischen 1-100. Der Us
 | 5.H  | ----- | Giovanni  | Programm muss erkennen können ob es die richtige Zahl oder die falsche ist                       | 20'           |
 | 5.I  | ----- | Giovanni  | Falls die Zahl nicht erraten wurde, soll der User nochmals versuchen                             | 45'           |
 | 5.J  | ----- | Giovanni  | Falls die Richtige Zahl gefunden wurde, soll eine Meldung gegeben werden                         | 30'           |
-| 6.K  | ----- | Giovanni  | Falls Spieler True eingibt soll programm fortlaufen                                              | 30'           |
-| 6.L  | ----- | Giovanni  | Falls Spieler True eingibt soll programm anhalten                                                | 30'           |
+| 6.K  | ----- | Giovanni  | Falls Spieler True eingibt soll das Programm fortlaufen                                         | 30'           |
+| 6.L  | ----- | Giovanni  | Falls Spieler True eingibt soll das Programm anhalten                                           | 30'           |
 | 7.M  | ----- | Giovanni  | Versuche Zähler einbauen                                                                         | 15'           |
 | 8.N  | ----- | Giovanni  | Schleife erstellen um Programm nach wunshc des Users zu wiederholen                              | 45'           |
 | 9.O  | ----- | Giovanni  | Falls Spieler weiter will oder nicht, eine kurze Reaktion darauf folgen lassen                   | 10'           |
@@ -75,11 +83,9 @@ Ich ertselle ein Programm, dieses ersellt eine Geheimzahl zwischen 1-100. Der Us
 
 
 
-Total: 
+Total: 575 minuten
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
 
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
 
 ## 3 Entscheiden
 ✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
@@ -113,19 +119,24 @@ Total:
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  | 22.09.22 |OK|Giovanni|
+| 2.1  | 22.09.22 |OK|Giovanni|
+| 3.1  | 22.09.22 |OK|Giovanni|
+| 4.1  | 22.09.22 |OK|Giovanni|
+| 5.1  | 22.09.22 |OK|Giovanni|
+| 6.1  | 22.09.22 |OK|Giovanni|
+| 6.2  | 22.09.22 |OK|Giovanni|
+| 7.1  | 22.09.22 |OK|Giovanni|
+| 8.1  | 22.09.22 |OK|Giovanni|
+| 9.1  | 22.09.22 |OK|Giovanni|
+| 9.2  | 22.09.22 |OK|Giovanni|
+| 10.1  | 22.09.22 |OK|Giovanni|
+| 11.1  | 22.09.22 |OK|Giovanni|
+| 11.2  | 22.09.22 |OK|Giovanni|
+| 11.3  | 22.09.22 |OK|Giovanni|
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Programm läuft einwandfrei, die Testfälle wurden allesamt fehlerlos ausgeführt.
 
-### 5.2 Exploratives Testen
-
-| BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
-| ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |              |         |                   |                      |
-| ...  |              |         |                   |                      |
-
-✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
 
 ## 6 Auswerten
 
