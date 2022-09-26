@@ -88,7 +88,7 @@ Total: 575 minuten
 
 
 ## 3 Entscheiden
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Ich habe mich entschieden eine bis zwei Userstorys zu ändern.
 
 ## 4 Realisieren
 
@@ -139,5 +139,4 @@ Programm läuft einwandfrei, die Testfälle wurden allesamt fehlerlos ausgeführ
 
 
 ## 6 Auswerten
-
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
+![Lernbericht](https://github.com/Giovi06/La_1100_Numberguessing/blob/main/Lernbericht.md)
