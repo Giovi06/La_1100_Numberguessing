@@ -49,7 +49,6 @@ namespace Numberguessing
                                     {
                                         try
                                         {
-                                            Console.WriteLine(grosseRandomNumber);
                                             Console.WriteLine("Geben Sie bitte eine Zahl zwischen 1-1000 ein: ");
                                             gerateneZahl = Convert.ToInt32(Console.ReadLine());
                                         }
@@ -114,7 +113,6 @@ namespace Numberguessing
                                     {
                                         try
                                         {
-                                            Console.WriteLine(randomNumber);
                                             Console.WriteLine("Geben Sie bitte eine Zahl zwischen 1-100 ein: ");
                                             gerateneZahl = Convert.ToInt32(Console.ReadLine());
                                         }
